@@ -1,0 +1,13 @@
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'Shougo/vimshell.vim'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'tpope/vim-surround'
+Plug 'altercation/vim-colors-solarized'
+call plug#end()
